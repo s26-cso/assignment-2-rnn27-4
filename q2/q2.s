@@ -78,6 +78,7 @@ while:
 negative:
     li t5, -1
     sd t5, 0(t4)
+    j push_stack   
 
 next:
     la t2, res
